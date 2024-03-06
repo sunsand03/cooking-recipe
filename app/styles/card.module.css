@@ -4,12 +4,14 @@
     border: 1px solid brown;
     gap: 20px;
     text-align: center;
+    height:90vh;
 }
 
 .containerTitle{
     height: 12vh;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .title{

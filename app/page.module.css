@@ -7,6 +7,19 @@
   min-height: 100vh;
 } */
 
+.searchbar{    
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.searchbar input{
+  border-radius: 5px;
+  border: 1px solid rgba(113, 45, 13, 0.682);;
+  padding: 5px;
+}
+
 .cards{  
   display: flex;
   align-items:flex-start;

@@ -9,10 +9,12 @@ import Header from "./components/Header";
 
 export default function Home() {
 
+  const [research, setResearch] = useState("p");
+
   const [recipes, setRecipes]= useState([]);
 
   const fetchData = () => {
-    axios.get("https://www.themealdb.com/api/json/v1/1/search.php?s=tomato")
+    axios.get("https://www.themealdb.com/api/json/v1/1/search.php?s=" + research)
     .then((response)=>{
      setRecipes(response.data.meals);
     })
@@ -21,14 +23,25 @@ export default function Home() {
     })
   }
 
+  const handleResearch = (e)=>{
+    setResearch(e.target.value);
+  }
+
   useEffect(()=>{
     fetchData();
-  }, [])
+  }, [research])
 
   return (
     <main >
       <div>
         <Header/>
+        <div className={style.searchbar}>
+              <input 
+                type="text"
+                placeholder='research a recipe...'
+                onChange={(e)=>{handleResearch(e)}} 
+              />
+          </div>
         <div className={style.cards}>
           {recipes && recipes.map((recipe)=>(
             <div key={recipe.idMeal}><Card recipe={recipe}/></div>

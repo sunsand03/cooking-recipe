@@ -1,6 +1,4 @@
-.container{
-    background-color: aqua;
-}
+
 
 .title{
     text-align: center;
@@ -8,12 +6,4 @@
     color: rgb(205, 85, 29);
   }
 
-  .searchbar{    
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-  }
-
-  .searchbar input{
-    border-radius: 5px;
-  }
+ 
