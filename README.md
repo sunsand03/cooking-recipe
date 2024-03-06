@@ -26,7 +26,7 @@ yarn dev
 
 ## ☁️ Deploy
 
-Find the deployed application here: [Cooking recipe](cooking-recipe-search.netlify.app)
+Find the deployed application here: [Cooking recipe](https://cooking-recipe-search.netlify.app/)
 
 
 
