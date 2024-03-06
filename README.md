@@ -26,7 +26,7 @@ yarn dev
 
 ## ☁️ Deploy
 
-Find the deployed application here: [Cooking recipe](https://cooking-recipe-muet3cilk-ibraima-nombos-projects.vercel.app/)
+Find the deployed application here: [Cooking recipe](cooking-recipe-search.netlify.app)
 
 
 
