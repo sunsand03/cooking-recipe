@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 📌 Overview
 
-## Getting Started
+Cooking-recipe project uses axios for API calls, Next.js for server-side rendering, React for front-end, and ESLint for code quality. Dependencies include react, react-dom, types/react, eslint, eslint-config-next.
 
-First, run the development server:
+## ⚙️ Setting Up
 
+#### Your Environment Variable
+
+- Step 1
+
+- Step 2
+
+## 🚀 Run Locally
+1.Clone the cooking-recipe repository:
+```sh
+git clone https://github.com/sunsand03/cooking-recipe
+```
+2.Install the dependencies with one of the package managers listed below:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
+bun install
+npm install
+yarn install
+```
+3.Start the development mode:
+```bash
 pnpm dev
-# or
 bun dev
+npm run dev
+yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ☁️ Deploy
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+`[Cooking recipe](https://cooking-recipe-muet3cilk-ibraima-nombos-projects.vercel.app/)`
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
