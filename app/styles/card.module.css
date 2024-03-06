@@ -3,4 +3,19 @@
     border-radius: 5px;
     border: 1px solid brown;
     gap: 20px;
+    text-align: center;
+}
+
+.title{
+    font-size: medium;
+    padding: 10px;
+}
+
+.origin{
+    font-weight: 400;
+    padding: 10px;
+}
+
+.picture{
+    border-radius: 5px;
 }
