@@ -9,13 +9,17 @@ import Header from "./components/Header";
 
 export default function Home() {
 
-  const [research, setResearch] = useState("p");
+  const [research, setResearch] = useState("chicken");
 
   const [recipes, setRecipes]= useState([]);
 
+  /**
+   * récupère les données de l'API
+   */
   const fetchData = () => {
     axios.get("https://www.themealdb.com/api/json/v1/1/search.php?s=" + research)
     .then((response)=>{
+      console.log(response.data.meals);
      setRecipes(response.data.meals);
     })
     .catch((error)=>{
@@ -23,10 +27,7 @@ export default function Home() {
     })
   }
 
-  const handleResearch = (e)=>{
-    setResearch(e.target.value);
-  }
-
+ 
   useEffect(()=>{
     fetchData();
   }, [research])
@@ -39,7 +40,7 @@ export default function Home() {
               <input 
                 type="text"
                 placeholder='research a recipe...'
-                onChange={(e)=>{handleResearch(e)}} 
+                onChange={(e)=>{setResearch(e.target.value)}} 
               />
           </div>
         <div className={style.cards}>

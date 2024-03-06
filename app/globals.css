@@ -9,6 +9,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  background: rgba(245, 242, 242, 0.638);
 }
 
 a {
