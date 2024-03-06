@@ -28,6 +28,7 @@ const Card = ({recipe}) => {
             <p className={style.content}>{recipe.strInstructions}</p>
             <button className={style.discover} onClick={toggleModal}>Discover the recipe</button>
 
+            {/* affichage de la modale */}
             {showModal && (
                 <div className={style.modalBackground}>
                     <div className={style.modal}>
@@ -53,7 +54,6 @@ const Card = ({recipe}) => {
                     </div>
                 </div>
             )}
-
 
         </div>
     );

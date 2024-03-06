@@ -11,6 +11,12 @@
   width: 300px;
 }
 
+.loading{
+  text-align: center;
+  color:green;
+  margin: 20px;
+}
+
 .cards{  
   display: flex;
   align-items:flex-start;
@@ -22,15 +28,5 @@
 }
 
 
-/* Mobile */
-@media (max-width: 700px) {
-  
-  
- 
-}
 
-/* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
-  
-}
 
