@@ -2,13 +2,7 @@
 
 Cooking-recipe project uses axios for API calls, Next.js for server-side rendering, React for front-end, and ESLint for code quality. Dependencies include react, react-dom, types/react, eslint, eslint-config-next.
 
-## ⚙️ Setting Up
-
-#### Your Environment Variable
-
-- Step 1
-
-- Step 2
+This is a recipe search application using the themeal-db API.
 
 ## 🚀 Run Locally
 1.Clone the cooking-recipe repository:
@@ -32,7 +26,7 @@ yarn dev
 
 ## ☁️ Deploy
 
-`[Cooking recipe](https://cooking-recipe-muet3cilk-ibraima-nombos-projects.vercel.app/)`
+Find the deployed application here: [Cooking recipe](https://cooking-recipe-muet3cilk-ibraima-nombos-projects.vercel.app/)
 
 
 
