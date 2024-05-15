@@ -2,7 +2,7 @@
 name: Rapport de bug
 about: Crée un rapport de bug pour nous améliorer
 title: ''
-labels: bug
+labels: bug, Priority 1
 assignees: ''
 
 ---

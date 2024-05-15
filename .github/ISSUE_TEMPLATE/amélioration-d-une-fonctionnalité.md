@@ -2,7 +2,7 @@
 name: Amélioration d'une fonctionnalité
 about: améliorer une fonctionnalité existante
 title: ''
-labels: enhancement
+labels: bug, enhancement
 assignees: ''
 
 ---
